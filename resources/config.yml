@@ -1,0 +1,6 @@
+# Use {player} for the player name
+enderchest-name: "Enderchest de @{player}"
+enderchest-slots: 
+  27: "27.slots.use"
+  36: "36.slots.use"
+  27: "27.slots.use"

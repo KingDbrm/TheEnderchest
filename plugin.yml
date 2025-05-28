@@ -1,0 +1,14 @@
+name: TheEnderchest
+main: the\enderchest\Loader
+api: 5.0.0
+version: 1.5
+
+permissions:
+  enderchest.command:
+    default: op
+  36.slots.use:
+    default: op
+  45.slots.use:
+    default: op
+  54.slots.use:
+    default: op
