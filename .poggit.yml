@@ -5,8 +5,10 @@ branches:
     target: "src"
     php:
       - "7.4"
+      - "8.1"
     path: ""
 projects:
   TheEnderchest:
     path: ""
+    name: TheEnderchest
 ...
