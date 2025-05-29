@@ -3,8 +3,6 @@ main: the\enderchest\Loader
 api: 5.0.0
 version: 1.5
 
-php: [8.1]
-
 permissions:
   enderchest.command:
     default: op
