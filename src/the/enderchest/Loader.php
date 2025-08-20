@@ -27,22 +27,23 @@ final class Loader extends PluginBase {
 
     protected function onEnable(): void {
         self::setInstance($this);
-        new EnderChestUtils($this);
+        
         CustomSizedInvMenu::init($this);
+        new EnderChestUtils($this);
 
-        self::registerCommands();
-        self::registerBlocks();
+        $this->registerCommands();
+        $this->registerBlocks();
 
         $this->database = new PlayerDatabase($this->getDataFolder());
 
         $this->getLogger()->notice("Plugin created by KingDbrm");
     }
 
-    public static function registerCommands(): void {
-        Server::getInstance()->getCommandMap()->register('enderchests', new EnderchestCommand());
+    public function registerCommands(): void {
+        Server::getInstance()->getCommandMap()->register('enderchests', new EnderchestCommand($this));
     }
 
-    public static function registerBlocks(): void {
+    public function registerBlocks(): void {
         $vanillaBlock = VanillaBlocks::ENDER_CHEST();
         $block = new EnderChestBlock(
             $vanillaBlock->getIdInfo(),

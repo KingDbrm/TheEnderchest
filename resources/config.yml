@@ -1,6 +1,5 @@
 # Use {player} for the player name
+# Permission of 27 slots: "27.slots.use"
+# Permission of 36 slots: "36.slots.use"
+# Permission of 27 slots: "27.slots.use"
 enderchest-name: "Enderchest de @{player}"
-enderchest-slots: 
-  27: "27.slots.use"
-  36: "36.slots.use"
-  27: "27.slots.use"

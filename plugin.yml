@@ -1,7 +1,10 @@
 name: TheEnderchest
 main: the\enderchest\Loader
 api: 5.0.0
-version: 1.5
+version: 2.0.0
+
+load: POSTWORLD
+depend: TheLibrary
 
 permissions:
   enderchest.command:
