@@ -5,4 +5,7 @@ branches:
 projects:
   TheEnderchest:
     path: ""
+requires:
+  - name: KingDbrm/TheLibrary
+    version: "^1.0"
 ...
