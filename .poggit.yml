@@ -7,8 +7,12 @@ projects:
     path: ""
 lint:
   phpstan:
-    stubDirs:
-      - stubs
+    ignoreErrors:
+      - '#Call to static method init\(\) on an unknown class muqsit\\\\customsizedinvmenu\\\\CustomSizedInvMenu#'
+      - '#Call to static method override\(\) on an unknown class block\\\\BlockRegistry#'
+      - '#Class the\\\\enderchest\\\\commands\\\\EnderchestCommand extends unknown class rajadordev\\\\smartcommand\\\\command\\\\SmartCommand#'
+      - '#Access to undefined constant pocketmine\\\\block\\\\utils\\\\SupportType::NONE#'
+      - '#Call to static method create\(\) on an unknown class muqsit\\\\invmenu\\\\InvMenu#'
 requires:
   - name: KingDbrm/TheLibrary
     version: "^1.0"
