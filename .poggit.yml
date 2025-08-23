@@ -8,5 +8,5 @@ projects:
     libs:
       - src: the\library\Loader
         version: ^1.2.0
-    lint: false
+    lint: true
 ...
