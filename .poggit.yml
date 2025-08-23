@@ -6,7 +6,7 @@ projects:
   TheEnderchest:
     path: ""
     libs:
-      - src: the\library\Loader
+      - src: KingDbrm/TheLibrary/TheLibrary
         version: ^1.2.0
     lint: false
 ...
