@@ -1,8 +1,12 @@
 --- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/KingDbrm/TheEnderchest
 build-by-default: true
 branches:
-- main
+  - main
 projects:
   TheEnderchest:
     path: ""
+    libs:
+      - src: the\library\Loader
+        version: ^1.2.0
+    lint: false
 ...
