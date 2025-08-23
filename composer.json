@@ -1,0 +1,20 @@
+{
+  "name": "kingdbrm/theenderchest",
+  "description": "Plugin TheEnderchest para PocketMine-MP",
+  "type": "pocketmine-plugin",
+  "require": {
+    "php": ">=8.1",
+    "kingdbrm/thelibrary": "^1.0"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/KingDbrm/TheLibrary.git"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "king\\theenderchest\\": "src/"
+    }
+  }
+}
