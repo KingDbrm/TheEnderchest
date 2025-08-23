@@ -5,6 +5,10 @@ branches:
 projects:
   TheEnderchest:
     path: ""
+lint:
+  phpstan:
+    stubDirs:
+      - stubs
 requires:
   - name: KingDbrm/TheLibrary
     version: "^1.0"
