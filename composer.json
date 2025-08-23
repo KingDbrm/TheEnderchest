@@ -1,0 +1,7 @@
+{
+  "require": {
+    "muqsit/invmenu": "^1.6",
+    "muqsit/customsizedinvmenu": "^1.0",
+    "rajadordev/smartcommand": "^1.0"
+  }
+}
