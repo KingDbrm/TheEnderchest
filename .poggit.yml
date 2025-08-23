@@ -5,8 +5,4 @@ branches:
 projects:
   TheEnderchest:
     path: ""
-    libs:
-      - src: KingDbrm/TheLibrary/TheLibrary
-        version: ^1.0.0
-    lint: true
 ...
