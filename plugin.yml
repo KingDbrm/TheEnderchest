@@ -6,12 +6,6 @@ version: 2.0.0
 load: POSTWORLD
 depend: TheLibrary
 
-autoload:
-  muqsit: libs/muqsit/
-  block: libs/block/
-  item: libs/item/
-  rajadordev: libs/rajadordev/
-
 permissions:
   enderchest.command:
     default: op
